@@ -13,6 +13,7 @@ class Solution:
 
         for i, num in enumerate(nums):
             current_sum += num
+            # abc
 
             if current_sum > max_sum:
                 max_sum = current_sum
